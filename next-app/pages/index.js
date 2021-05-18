@@ -24,6 +24,30 @@ export default function Home() {
 				<p className='bold'>RELEASE ON 5/27</p>
 			</div>
 
+			{/* IMAGES */}
+
+			<img
+				className='primary-image'
+				src='/mobile/image-keyboard.jpg'
+				alt='keyboard'
+				width='372px'
+				height='331px'
+			/>
+
+			<div className='flex-row'>
+				{/* This is a div for the use of ::before and ::after 
+				psuedo elements properties for the overlay */}
+				<div className='secondary-image-left' />
+
+				<img
+					className='secondary-image-right'
+					src='/mobile/image-glass-and-keyboard.jpg'
+					alt='glass and keyboard'
+					width='220px'
+					height='193px'
+				/>
+			</div>
+
 			{/* SECONDARY  */}
 			<section className='section-secondary'>
 				<h2>Mechanical wireless keyboard</h2>
