@@ -37,7 +37,18 @@ export default function Home() {
 			<div className='flex-row'>
 				{/* This is a div for the use of ::before and ::after 
 				psuedo elements properties for the overlay */}
-				<div className='secondary-image-left' />
+
+				{/* I chose this way because the image rendered to the skewed dimensions better with the image tag then with any of the  */}
+				{/* background image properties.  */}
+				<div className='image-wrapper'>
+					<img
+						className='secondary-image-left'
+						src='/mobile/image-phone-and-keyboard.jpg'
+						alt='phone and keyboard'
+						width='129px'
+						height='193px'
+					/>
+				</div>
 
 				<img
 					className='secondary-image-right'

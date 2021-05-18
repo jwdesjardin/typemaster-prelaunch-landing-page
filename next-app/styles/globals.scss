@@ -147,62 +147,46 @@ h3 {
 }
 
 .secondary-image-left {
-	position: relative;
-	height: 193px;
-	width: 153px;
-	background: url('/mobile/image-phone-and-keyboard.jpg');
-	background-size: cover;
-	background-position: center;
-	display: block;
 	border-radius: 0 20px 20px 0;
-	margin: 24px 0;
+	display: block;
 }
 
 .secondary-image-right {
 	border-radius: 20px;
 	margin: 24px;
+	transform: translateX(-24px);
 }
 
-.secondary-image-left::after {
+.image-wrapper {
+	margin: 24px 0;
+	transform: translateX(-24px);
+}
+
+.image-wrapper::after {
 	// ORANGE OVERLAY
 	content: '';
-	display: block;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(#f16718, 0.7);
+	background-color: rgba(#f16718, 0.6);
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 0.8;
 	z-index: 2;
 	border-radius: 0 20px 20px 0;
 }
 
-.secondary-image-left::before {
+.image-wrapper::before {
 	// ORANGE OVERLAY
 	content: '';
-	display: block;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(#979797, 0.2);
+	background-color: rgba(#000, 0.1);
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 0.8;
 	z-index: 2;
 	border-radius: 0 20px 20px 0;
 }
-
-// .orange-overlay {
-// 	position: absolute;
-// 	top: 0;
-// 	bottom: 0;
-// 	left: 0;
-// 	right: 0;
-// 	opacity: 1;
-// 	background-color: rgba(#f16718, 0.7);
-// 	overflow: hidden;
-// }
 
 // utilities
 .orange-icons {
