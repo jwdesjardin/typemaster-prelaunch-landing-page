@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+// Colors
+
+:root {
+	--orange: #f16718;
+	--light-orange: #ff9b62;
+	--blue: #162542;
+	--light-blue: #7b8bad;
+	--light-grey: #e8eff2;
+	--white: #ffffff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+// Typography
+body {
+	font-family: 'Barlow', sans-serif;
+	background-color: var(--white);
+	color: var(--light-blue);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 900;
+	text-transform: capitalize;
+	color: var(--blue);
+}
+
+h1 {
+	font-size: 56px;
+	line-height: 56px;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 36px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 28px;
+}
+
+// Buttons
+
+.button {
+	width: 175px;
+	height: 58px;
+	font-size: 16px;
+	font-weight: 700;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button-primary {
+	background-color: var(--orange);
+	color: var(--white);
+	&:hover {
+		background-color: var(--light-orange);
+	}
+}
+
+.button-secondary {
+	background-color: var(--light-grey);
+	color: var(--blue);
+	&:hover {
+		background-color: var(--blue);
+		color: var(--white);
+	}
+}
+
+// utilities
+.orange-icons {
+	height: 65px;
+	width: 65px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--white);
+	background-color: var(--orange);
+}
+
+.bold {
+	font-weight: 700;
+}
