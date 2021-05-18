@@ -1,8 +1,8 @@
 ## Strategy
 
-1. Mobile first development
-2. Typpgraphy, Background and Colors using utility classes, variables.
-3. Buttons
+1. [] Mobile first layout
+2. [x] Typpgraphy, Background and Colors using utility classes, variables.
+3. [x] Buttons
 4. bring in images
 5. complete mobile layout
 6. add media queries to expand to tablet then desktop modes
