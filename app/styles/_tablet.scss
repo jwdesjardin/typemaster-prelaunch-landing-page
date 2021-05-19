@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 655px) {
 	// Typography
 
 	h1 {
@@ -13,17 +13,12 @@
 
 	//layout
 
-	.section-header-buttons {
-		padding: 40px;
-	}
-
 	.section-secondary-buttons {
 		margin-top: 40px;
 		padding-right: 30px;
-	}
-
-	.section-primary {
-		margin-top: 0px 39px;
+		button {
+			margin-right: 30px;
+		}
 	}
 
 	.section-secondary {
@@ -32,7 +27,6 @@
 		text-align: left;
 		margin-bottom: 142px;
 		margin-top: 72px;
-		padding: 0 40px;
 		justify-content: space-between;
 		p {
 			max-width: 398px;
@@ -53,34 +47,41 @@
 
 	//images
 	.primary-image {
-		width: 478px;
-		height: 425px;
+		// width: 478px;
+		width: 60.8vw;
+		// height: 425px;
+		height: 54.1vw;
 		background-image: url('/tablet/image-keyboard.jpg');
 	}
 
 	.primary-image-wrapper {
 		margin-top: 22px;
-		width: 321px;
+		// width: 321px;
+		width: 40.8vw;
 		transform: translateX(0px);
 	}
 
 	.secondary-image-right {
-		width: 445px;
-		height: 320px;
+		// width: 445px;
+		width: 56.5vw;
+		// height: 320px;
+		height: 40.7vw;
 		background-image: url('/tablet/image-glass-and-keyboard.jpg');
 		transform: translateX(0px);
-		margin: 40px 40px 0px 0px;
+		margin: 40px 5vw 0px 0px;
 	}
 
 	.secondary-image-left {
-		width: 214px;
-		height: 320px;
+		// width: 214px;
+		width: 27.2vw;
+		// height: 320px;
+		height: 40.7vw;
 		background-image: url('/mobile/image-phone-and-keyboard.jpg');
 		border-radius: 20px;
 	}
 
 	.secondary-image-wrapper {
-		margin: 40px 30px 0px 39px;
+		margin: 40px 3.7vw 0px 5vw;
 		transform: translateX(0px);
 	}
 

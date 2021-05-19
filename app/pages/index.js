@@ -32,21 +32,17 @@ export default function Home() {
 			</div>
 
 			<div className='flex-row container'>
-				{/* This is a div for the use of ::before and ::after 
-				psuedo elements properties for the overlay */}
-
-				{/* I chose this way because the image rendered to the skewed dimensions better with the image tag then with any of the  */}
-				{/* background image properties.  */}
+				{/* OVERLAY IMAGE */}
 				<div className='secondary-image-wrapper'>
 					<div className='secondary-image-left'></div>
 				</div>
 
+				{/* SECOND IMAGE */}
 				<div className='secondary-image-right'></div>
 
-				{/* SECONDARY  */}
+				{/* SECTION  */}
 				<section className='section-secondary'>
 					<h2>Mechanical wireless keyboard</h2>
-
 					<p>
 						The Typemaster keyboard boasts top-notch build and practical design. It offers a wide
 						variety of switches and keycaps, along with reliable wireless connectivity.

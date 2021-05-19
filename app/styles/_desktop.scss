@@ -1,4 +1,4 @@
-@media (min-width: 1110px) {
+@media (min-width: 1140px) {
 	// Typography
 
 	h1 {
@@ -21,6 +21,7 @@
 
 	.section-primary {
 		max-width: 445px;
+		padding: 0;
 	}
 
 	.section-secondary {
@@ -48,23 +49,25 @@
 	.desktop-bg-box-1 {
 		display: block;
 		position: absolute;
-		left: -120;
-		top: 950;
+		left: -120px;
+		top: 950px;
 		width: 255px;
 		height: 236px;
 		background-color: var(--light-grey);
 		border-radius: 15px;
+		z-index: -1;
 	}
 
 	.desktop-bg-box-2 {
 		display: block;
 		position: absolute;
-		left: 1305;
-		top: 196;
+		right: -120px;
+		top: 196px;
 		width: 255px;
 		height: 236px;
 		background-color: var(--light-grey);
 		border-radius: 15px;
+		z-index: -1;
 	}
 
 	//images
