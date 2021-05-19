@@ -106,7 +106,9 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 42px 0 24px;
+  margin-top: 32px;
+  width: 100%;
+  margin-right: 41px;
 }
 
 .section-primary {
@@ -124,7 +126,7 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0 24px;
-  margin-bottom: 32px;
+  margin-top: 64px;
 }
 
 .section-secondary {
@@ -181,9 +183,15 @@ h3 {
 
 .primary-image {
   border-radius: 20px;
+}
+
+.primary-image-wrapper {
+  border-radius: 20px 0 0 20px;
+  width: 351px;
   margin-top: 64px;
   -webkit-transform: translateX(24px);
           transform: translateX(24px);
+  overflow: hidden;
 }
 
 .secondary-image-left {
@@ -198,13 +206,13 @@ h3 {
           transform: translateX(-24px);
 }
 
-.image-wrapper {
+.secondary-image-wrapper {
   margin: 24px 0;
   -webkit-transform: translateX(-24px);
           transform: translateX(-24px);
 }
 
-.image-wrapper::after {
+.secondary-image-wrapper::after {
   content: '';
   width: 100%;
   height: 100%;
@@ -216,7 +224,7 @@ h3 {
   border-radius: 0 20px 20px 0;
 }
 
-.image-wrapper::before {
+.secondary-image-wrapper::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -258,5 +266,46 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.grid-m1-t2-d2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    margin-bottom: 34px;
+  }
+  .button {
+    width: 175px;
+    height: 58px;
+  }
+  .section-header-buttons {
+    padding: 40px;
+  }
+  .section-primary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 24px;
+    margin-bottom: 3px;
+  }
+  .grid-m1-t2-d2 {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 /*# sourceMappingURL=globals.css.map */

@@ -7,32 +7,35 @@ export default function Home() {
 				<button className='button button-secondary'>Pre-order now</button>
 			</div>
 
-			{/* PRIMARY  */}
-			<section className='section-primary'>
-				<h1>Typemaster keyboard</h1>
+			<div className='grid-m1-t2-d2'>
+				{/* PRIMARY  */}
+				<section className='section-primary'>
+					<h1>Typemaster keyboard</h1>
 
-				<p>
-					Improve your productivity and gaming without breaking the bank. Upgrade to a high quality
-					mechanical typing experience.
-				</p>
-			</section>
+					<p>
+						Improve your productivity and gaming without breaking the bank. Upgrade to a high
+						quality mechanical typing experience.
+					</p>
 
-			{/*  BUTTONS */}
-			<div className='section-secondary-buttons'>
-				<button className='button button-primary'>Pre-order now</button>
+					{/*  BUTTONS */}
+					<div className='section-secondary-buttons'>
+						<button className='button button-primary'>Pre-order now</button>
 
-				<p className='bold'>RELEASE ON 5/27</p>
+						<p className='bold'>RELEASE ON 5/27</p>
+					</div>
+				</section>
+
+				{/* IMAGES */}
+				<div className='primary-image-wrapper'>
+					<img
+						className='primary-image'
+						src='/mobile/image-keyboard.jpg'
+						alt='keyboard'
+						width='372px'
+						height='331px'
+					/>
+				</div>
 			</div>
-
-			{/* IMAGES */}
-
-			<img
-				className='primary-image'
-				src='/mobile/image-keyboard.jpg'
-				alt='keyboard'
-				width='372px'
-				height='331px'
-			/>
 
 			<div className='flex-row'>
 				{/* This is a div for the use of ::before and ::after 
@@ -40,7 +43,7 @@ export default function Home() {
 
 				{/* I chose this way because the image rendered to the skewed dimensions better with the image tag then with any of the  */}
 				{/* background image properties.  */}
-				<div className='image-wrapper'>
+				<div className='secondary-image-wrapper'>
 					<img
 						className='secondary-image-left'
 						src='/mobile/image-phone-and-keyboard.jpg'
