@@ -7,7 +7,7 @@ export default function Home() {
 				<button className='button button-secondary'>Pre-order now</button>
 			</div>
 
-			<div className='grid-m1-t2-d2'>
+			<div className='grid-m1-t2-d2 container'>
 				{/* PRIMARY  */}
 				<section className='section-primary'>
 					<h1>Typemaster keyboard</h1>
@@ -31,7 +31,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className='flex-row'>
+			<div className='flex-row container'>
 				{/* This is a div for the use of ::before and ::after 
 				psuedo elements properties for the overlay */}
 
@@ -42,20 +42,20 @@ export default function Home() {
 				</div>
 
 				<div className='secondary-image-right'></div>
+
+				{/* SECONDARY  */}
+				<section className='section-secondary'>
+					<h2>Mechanical wireless keyboard</h2>
+
+					<p>
+						The Typemaster keyboard boasts top-notch build and practical design. It offers a wide
+						variety of switches and keycaps, along with reliable wireless connectivity.
+					</p>
+				</section>
 			</div>
 
-			{/* SECONDARY  */}
-			<section className='section-secondary'>
-				<h2>Mechanical wireless keyboard</h2>
-
-				<p>
-					The Typemaster keyboard boasts top-notch build and practical design. It offers a wide
-					variety of switches and keycaps, along with reliable wireless connectivity.
-				</p>
-			</section>
-
 			{/* SECTION INFO 1 */}
-			<div className='grid-m1-t2-d4'>
+			<div className='grid-m1-t2-d4 container'>
 				<section className='section-info'>
 					<div className='orange-icons'>
 						<img

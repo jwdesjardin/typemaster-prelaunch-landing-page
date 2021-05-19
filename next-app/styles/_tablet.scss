@@ -18,17 +18,17 @@
 	}
 
 	.section-secondary-buttons {
-		margin-top: 39px;
+		margin-top: 40px;
 		padding-right: 30px;
 	}
 
 	.section-primary {
-		padding: 0 39px;
-		margin-top: 0px;
+		margin-top: 0px 39px;
 	}
 
 	.section-secondary {
 		flex-direction: row;
+		width: 100%;
 		text-align: left;
 		margin-bottom: 142px;
 		margin-top: 72px;
