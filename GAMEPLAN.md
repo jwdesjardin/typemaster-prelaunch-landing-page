@@ -5,7 +5,7 @@
 3. [x] Buttons
 4. [x] bring in images
 5. [x] complete mobile layout
-6. add media queries to expand to tablet then desktop modes
+6. [x] add media queries to expand to tablet then desktop modes
 7. convert to tailwind css
 
 ### Toolkit:
