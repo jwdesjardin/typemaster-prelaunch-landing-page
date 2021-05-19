@@ -144,6 +144,14 @@ h3 {
 
 .primary-image {
 	border-radius: 20px;
+	width: 372px;
+	height: 331px;
+	background-image: url('/mobile/image-keyboard.jpg');
+	background-size: cover;
+
+	@media (min-width: 1440px) {
+		background-image: url('/desktop/image-keyboard.jpg');
+	}
 }
 
 .primary-image-wrapper {
@@ -156,13 +164,16 @@ h3 {
 
 .secondary-image-left {
 	border-radius: 0 20px 20px 0;
-	display: block;
+	background-image: url('/mobile/image-phone-and-keyboard.jpg');
+	background-size: cover;
 }
 
 .secondary-image-right {
 	border-radius: 20px;
 	margin: 24px;
 	transform: translateX(-24px);
+	background-image: url('/mobile/image-glass-and-keyboard.jpg');
+	background-size: cover;
 }
 
 .secondary-image-wrapper {
@@ -219,6 +230,11 @@ h3 {
 }
 
 .grid-m1-t2-d2 {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.grid-m1-t2-d4 {
 	display: grid;
 	grid-template-columns: 1fr;
 }

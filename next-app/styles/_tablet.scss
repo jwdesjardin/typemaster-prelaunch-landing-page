@@ -17,52 +17,89 @@
 		padding: 40px;
 	}
 
-	// .section-secondary-buttons {
-	// 	display: flex;
-	// 	justify-content: space-between;
-	// 	align-items: center;
-	// 	padding: 0 42px 0 24px;
-	// }
-
-	.section-primary {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
-		padding: 0 24px;
-		margin-bottom: 3px;
+	.section-secondary-buttons {
+		margin-top: 39px;
+		padding-right: 30px;
 	}
 
-	// .section-secondary {
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	align-items: center;
-	// 	justify-content: center;
-	// 	text-align: center;
-	// 	margin-bottom: 111px;
-	// 	margin-top: 75px;
-	// 	padding: 0 24px;
-	// }
+	.section-primary {
+		padding: 0 39px;
+		margin-top: 0px;
+	}
 
-	// .section-info {
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	align-items: center;
-	// 	justify-content: center;
-	// 	text-align: center;
-	// 	margin-bottom: 64px;
-	// 	padding: 0 24px;
-	// }
+	.section-secondary {
+		flex-direction: row;
+		text-align: left;
+		margin-bottom: 142px;
+		margin-top: 72px;
+		padding: 0 40px;
+		justify-content: space-between;
+		p {
+			max-width: 398px;
+		}
+	}
 
-	// .section-footer {
-	// 	display: flex;
-	// 	justify-content: center;
-	// 	align-items: center;
-	// 	margin: 96px 0 50px 0;
-	// }
+	.section-info {
+		text-align: left;
+		margin: 0 0px 72px 39px;
+		align-items: flex-start;
+		width: 281px;
+		padding: 0;
+	}
+
+	.section-footer {
+		margin: 142px 0 43px 0;
+	}
+
+	//images
+	.primary-image {
+		width: 478px;
+		height: 425px;
+		background-image: url('/tablet/image-keyboard.jpg');
+	}
+
+	.primary-image-wrapper {
+		margin-top: 22px;
+		width: 321px;
+		transform: translateX(0px);
+	}
+
+	.secondary-image-right {
+		width: 445px;
+		height: 320px;
+		background-image: url('/tablet/image-glass-and-keyboard.jpg');
+		transform: translateX(0px);
+		margin: 40px 40px 0px 0px;
+	}
+
+	.secondary-image-left {
+		width: 214px;
+		height: 320px;
+		background-image: url('/mobile/image-phone-and-keyboard.jpg');
+		border-radius: 20px;
+	}
+
+	.secondary-image-wrapper {
+		margin: 40px 30px 0px 39px;
+		transform: translateX(0px);
+	}
+
+	.secondary-image-wrapper::after {
+		border-radius: 20px;
+	}
+	.secondary-image-wrapper::before {
+		border-radius: 20px;
+	}
 
 	// utilities
+
+	.orange-icons {
+		margin-bottom: 40px;
+	}
 	.grid-m1-t2-d2 {
+		grid-template-columns: 7fr 5fr;
+	}
+	.grid-m1-t2-d4 {
 		grid-template-columns: 1fr 1fr;
 	}
 }

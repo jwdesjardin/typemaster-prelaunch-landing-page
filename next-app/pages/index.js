@@ -27,13 +27,7 @@ export default function Home() {
 
 				{/* IMAGES */}
 				<div className='primary-image-wrapper'>
-					<img
-						className='primary-image'
-						src='/mobile/image-keyboard.jpg'
-						alt='keyboard'
-						width='372px'
-						height='331px'
-					/>
+					<div className='primary-image'></div>
 				</div>
 			</div>
 
@@ -44,22 +38,10 @@ export default function Home() {
 				{/* I chose this way because the image rendered to the skewed dimensions better with the image tag then with any of the  */}
 				{/* background image properties.  */}
 				<div className='secondary-image-wrapper'>
-					<img
-						className='secondary-image-left'
-						src='/mobile/image-phone-and-keyboard.jpg'
-						alt='phone and keyboard'
-						width='129px'
-						height='193px'
-					/>
+					<div className='secondary-image-left'></div>
 				</div>
 
-				<img
-					className='secondary-image-right'
-					src='/mobile/image-glass-and-keyboard.jpg'
-					alt='glass and keyboard'
-					width='220px'
-					height='193px'
-				/>
+				<div className='secondary-image-right'></div>
 			</div>
 
 			{/* SECONDARY  */}
@@ -73,54 +55,61 @@ export default function Home() {
 			</section>
 
 			{/* SECTION INFO 1 */}
-			<section className='section-info'>
-				<div className='orange-icons'>
-					<img src='/shared/icon-compatible.svg' height='20px' width='25px' alt='compatable icon' />
-				</div>
+			<div className='grid-m1-t2-d4'>
+				<section className='section-info'>
+					<div className='orange-icons'>
+						<img
+							src='/shared/icon-compatible.svg'
+							height='20px'
+							width='25px'
+							alt='compatable icon'
+						/>
+					</div>
 
-				<h3>Highly compatible</h3>
-				<p>
-					Easy to use and works well with all major computer brands, gaming consoles and mobile
-					devices. Plug & play, no installation or driver needed.
-				</p>
-			</section>
+					<h3>Highly compatible</h3>
+					<p>
+						Easy to use and works well with all major computer brands, gaming consoles and mobile
+						devices. Plug & play, no installation or driver needed.
+					</p>
+				</section>
 
-			{/* SECTION INFO 2 */}
-			<section className='section-info'>
-				<div className='orange-icons'>
-					<img src='/shared/icon-bluetooth.svg' height='28px' width='18px' alt='bluetooth icon' />
-				</div>
-				<h3>Wireless with bluetooth</h3>
-				<p>
-					Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft
-					away. Simply plug the unifying receiver into your computer.
-				</p>
-			</section>
+				{/* SECTION INFO 2 */}
+				<section className='section-info'>
+					<div className='orange-icons'>
+						<img src='/shared/icon-bluetooth.svg' height='28px' width='18px' alt='bluetooth icon' />
+					</div>
+					<h3>Wireless with bluetooth</h3>
+					<p>
+						Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft
+						away. Simply plug the unifying receiver into your computer.
+					</p>
+				</section>
 
-			{/* SECTION INFO 3 */}
-			<section className='section-info'>
-				<div className='orange-icons'>
-					<img src='/shared/icon-battery.svg' height='30px' width='32px' alt='battery icon' />
-				</div>
-				<h3>High capacity battery</h3>
-				<p>
-					Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on
-					replaceable ones.  Enjoy 40 hours of usage time between charges.
-				</p>
-			</section>
+				{/* SECTION INFO 3 */}
+				<section className='section-info'>
+					<div className='orange-icons'>
+						<img src='/shared/icon-battery.svg' height='30px' width='32px' alt='battery icon' />
+					</div>
+					<h3>High capacity battery</h3>
+					<p>
+						Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on
+						replaceable ones.  Enjoy 40 hours of usage time between charges.
+					</p>
+				</section>
 
-			{/* SECTION INFO 4 */}
-			<section className='section-info'>
-				<div className='orange-icons'>
-					<img src='/shared/icon-light.svg' height='32px' width='32px' alt='lightbulb icon' />
-				</div>
-				<h3>RGB backlit modes</h3>
-				<p>
-					{' '}
-					Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows
-					intensely in the dark and helps you type in low light conditions.
-				</p>
-			</section>
+				{/* SECTION INFO 4 */}
+				<section className='section-info'>
+					<div className='orange-icons'>
+						<img src='/shared/icon-light.svg' height='32px' width='32px' alt='lightbulb icon' />
+					</div>
+					<h3>RGB backlit modes</h3>
+					<p>
+						{' '}
+						Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows
+						intensely in the dark and helps you type in low light conditions.
+					</p>
+				</section>
+			</div>
 
 			<div className='section-footer'>
 				<p>
