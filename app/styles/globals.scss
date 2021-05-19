@@ -172,11 +172,6 @@ h3 {
 	height: 51.46vw;
 }
 
-.secondary-image-wrapper {
-	margin: 6.4vw 0;
-	transform: translateX(-6.4vw);
-}
-
 .secondary-image-right {
 	border-radius: 20px;
 	margin: 6.4vw 0;
@@ -186,6 +181,11 @@ h3 {
 	width: 58.7vw;
 	// height: 193px;
 	height: 51.46vw;
+}
+
+.secondary-image-wrapper {
+	margin: 6.4vw 0;
+	transform: translateX(-6.4vw);
 }
 
 .secondary-image-wrapper::after {
