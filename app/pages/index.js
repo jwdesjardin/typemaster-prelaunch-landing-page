@@ -2,11 +2,10 @@ import Head from 'next/head'
 
 export default function Home() {
 	return (
-		<main>
+		<div>
 			<Head>
 				<title>Typemaster Landing Page</title>
 				<link rel='icon' href='/favicon-32x32.png' />
-				<html lang='en'></html>
 			</Head>
 
 			{/* HEADER BUTTONS */}
@@ -118,6 +117,6 @@ export default function Home() {
 
 			<div className='desktop-bg-box-1'></div>
 			<div className='desktop-bg-box-2'></div>
-		</main>
+		</div>
 	)
 }
