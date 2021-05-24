@@ -1,9 +1,17 @@
+import Head from 'next/head'
+
 export default function Home() {
 	return (
 		<main>
+			<Head>
+				<title>Typemaster Landing Page</title>
+				<link rel='icon' href='/favicon-32x32.png' />
+				<html lang='en'></html>
+			</Head>
+
 			{/* HEADER BUTTONS */}
 			<div className='section-header-buttons'>
-				<img src='/shared/logo.svg' alt='typemaster logo' width='40px' height='40px' />
+				<img src='/shared/logo.svg' alt='typemaster logo' width='40' height='40' />
 				<button className='button button-secondary'>Pre-order now</button>
 			</div>
 
@@ -54,12 +62,7 @@ export default function Home() {
 			<div className='grid-m1-t2-d4 container'>
 				<section className='section-info'>
 					<div className='orange-icons'>
-						<img
-							src='/shared/icon-compatible.svg'
-							height='20px'
-							width='25px'
-							alt='compatable icon'
-						/>
+						<img src='/shared/icon-compatible.svg' height='20' width='25' alt='compatable icon' />
 					</div>
 
 					<h3>Highly compatible</h3>
@@ -72,7 +75,7 @@ export default function Home() {
 				{/* SECTION INFO 2 */}
 				<section className='section-info'>
 					<div className='orange-icons'>
-						<img src='/shared/icon-bluetooth.svg' height='28px' width='18px' alt='bluetooth icon' />
+						<img src='/shared/icon-bluetooth.svg' height='28' width='18' alt='bluetooth icon' />
 					</div>
 					<h3>Wireless with bluetooth</h3>
 					<p>
@@ -84,7 +87,7 @@ export default function Home() {
 				{/* SECTION INFO 3 */}
 				<section className='section-info'>
 					<div className='orange-icons'>
-						<img src='/shared/icon-battery.svg' height='30px' width='32px' alt='battery icon' />
+						<img src='/shared/icon-battery.svg' height='30' width='32' alt='battery icon' />
 					</div>
 					<h3>High capacity battery</h3>
 					<p>
@@ -96,7 +99,7 @@ export default function Home() {
 				{/* SECTION INFO 4 */}
 				<section className='section-info'>
 					<div className='orange-icons'>
-						<img src='/shared/icon-light.svg' height='32px' width='32px' alt='lightbulb icon' />
+						<img src='/shared/icon-light.svg' height='32' width='32' alt='lightbulb icon' />
 					</div>
 					<h3>RGB backlit modes</h3>
 					<p>
